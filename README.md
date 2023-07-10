@@ -18,7 +18,7 @@ To run prettier:
 
 To run eslint:
 ``
-    npm run eslint
+    npm run lint
 ``
 
 ## Usage
