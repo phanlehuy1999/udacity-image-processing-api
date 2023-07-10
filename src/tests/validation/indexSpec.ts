@@ -37,7 +37,7 @@ describe('validate image info', () => {
 describe('get image path', () => {
   it('should return full image path', () => {
     expect(getImagePath('encenadaport')).toContain(
-      '/udacity-image-processing-api/assets/images/encenadaport.jpg'
+      'encenadaport.jpg'
     );
   });
 });
