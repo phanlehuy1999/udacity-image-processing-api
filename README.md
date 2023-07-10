@@ -40,7 +40,7 @@ The server will be running on `http://localhost:3000`.
 
 The following API endpoints are available:
 
-- `/api/images` - get resized image (must have filename, width and height as the query params)
+- `http://localhost:3000/api/image-processing/resize?filename=encenadaport&width=300&height=160` - get resized image (must have filename, width and height as the query params)
 
 ## Testing
 
@@ -48,7 +48,3 @@ To run the tests, run the following command:
 ``
     npm run test
 ``
-
-## NOTE
-
-You can download more image and put them into assets/full 
